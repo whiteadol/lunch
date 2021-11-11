@@ -7,11 +7,16 @@
   <body>
     <h1><%= title %></h1>
     <p>메뉴판</p>
-    <img src="/images/menu_take5.png" style="width: 250px; height: 300px;" onclick="window.open(this.src)">
-    <img src="/images/menu_deli.png" style="width: 250px; height: 300px;" onclick="window.open(this.src)">
-    <img src="/images/menu_speedbox1.png" style="width: 250px; height: 300px;" onclick="window.open(this.src)">
-    <img src="/images/menu_speedbox2.png" style="width: 250px; height: 300px;" onclick="window.open(this.src)">
-    <img src="/images/menu_chidle.png" style="width: 250px; height: 300px;" onclick="window.open(this.src)">
+    <a href="/menus/take5">테이크 파이브</a>
+    <a href="/menus/speedbox">스피드박스</a>
+    <a href="/deli">델리뉴스</a>
+    <a href="/chidle">차이들</a>
+
+    <p>메뉴 입력</p>
+    <input type="text" id="input_menu">
+    <input type="button" id="input_btn" value="입력">
+    <a href="tel:010-5359-7290">010-5359-7290로 전화걸기</a>
+    <span id="result"></span>
   </body>
-  <script type="text/javascript" src="/javascripts/index.js"></script>
+  <script type="text/javascript" src="/javascripts/init.js"></script>
 </html>
